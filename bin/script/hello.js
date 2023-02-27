@@ -1,6 +1,6 @@
-import chalk from "chalk";
+const chalk = require("chalk");
 
-export default function hello() {
+exports.hello = function () {
   const log = console.log;
   const template = `
   ==================
@@ -9,7 +9,9 @@ export default function hello() {
   
   My GitHub: @kaikselhorst
   Github IGN: https://github.com/Schrodinger-Hat/ImageGoNord
+
+  Suport Img: ${chalk.red("PNG")}, ${chalk.red("JPEG")}, ${chalk.red("JPG")}
   `;
 
   log(chalk.blue(template));
-}
+};

@@ -1,9 +1,10 @@
-import inquirer from "inquirer";
-import hello from "./script/hello.js";
-import getDir from "./script/getDir.js";
-import getTheme from "./script/getTheme.js";
+#! /usr/bin/env node
+const inquirer = require("inquirer");
+const { hello } = require("./script/hello.js");
+const { getDir } = require("./script/getDir.js");
+const { getTheme } = require("./script/getTheme.js");
 
-import { initSingleFile, initFolder } from "./script/init.js";
+const { initSingleFile, initFolder } = require("./script/init.js");
 
 async function main() {
   const initOptions = {

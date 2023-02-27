@@ -1,11 +1,12 @@
-import fs from "node:fs/promises";
-import pythonCLI from "./pythonCLI.js";
+const fs = require("node:fs/promises");
 
-export async function initSingleFile(theme, dir) {
+const { pythonCLI } = require("./pythonCLI.js");
+
+exports.initSingleFile = function (theme, dir) {
   theme.forEach((t) => pythonCLI(t, dir));
-}
+};
 
-export async function initFolder(themes, dir) {
+exports.initFolder = async function (themes, dir) {
   try {
     const files = await fs.readdir(dir);
     dir += dir.at(-1) === "/" ? "" : "/";
@@ -17,4 +18,4 @@ export async function initFolder(themes, dir) {
   } catch (e) {
     console.log(e);
   }
-}
+};

@@ -1,8 +1,8 @@
-import childProcess from "node:child_process";
-import normalizeFile from "./normalizeFile.js";
-import logCLI from "./logCLI.js";
+const childProcess = require("node:child_process");
+const { normalizeFile } = require("./normalizeFile.js");
+const { logCLI } = require("./logCLI.js");
 
-export default function pythonCLI(theme, dir) {
+exports.pythonCLI = function (theme, dir) {
   const { name, extention } = normalizeFile(dir);
   return new Promise((resolve) => {
     childProcess.exec(
@@ -13,4 +13,4 @@ export default function pythonCLI(theme, dir) {
       }
     );
   });
-}
+};

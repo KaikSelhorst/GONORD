@@ -1,9 +1,9 @@
-import inquirer from "inquirer";
+const inquirer = require("inquirer");
 
-export default async function getDir() {
+exports.getDir = async function () {
   const { input } = await inquirer.prompt({
     name: "input",
     message: "Input directory:",
   });
   return input.trim().replace(/\\/gm, "/");
-}
+};

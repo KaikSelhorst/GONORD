@@ -32,7 +32,29 @@ npm install
 # Python Dependencies
 pip install -r ./ImageGoNord/requirements.txt
 
-# Run
+# Global Command
+$ npm install -g
 
-node index.js  #or npm run start
+# Run terminal CLI
+$ GONORD
 ```
+
+### Performance
+
+This CLI doesn't have the best performance on 4k images, so you need a better computer to make the transformations faster, even if you don't have the transformations they still happen but slower
+
+### Contact IGN
+
+Github: [ImageGoNord](https://github.com/Schrodinger-Hat/ImageGoNord)
+
+LinkedIn: [@schrodinger-hat](https://www.linkedin.com/company/schrodinger-hat/)
+
+WebSite: [ign.schrodinger-hat.it/](ign.schrodinger-hat.it/)
+
+### Contact Me
+
+Github: [@KaikSelhorst](https://github.com/Schrodinger-Hat/ImageGoNord)
+
+LinkedIn: [@KaikSelhorst](https://www.linkedin.com/in/kaikselhorst/)
+
+Discord: [Bseven#4712](https://discord.com/users/690249250067841031)

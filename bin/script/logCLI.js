@@ -1,6 +1,6 @@
-import chalk from "chalk";
+const chalk = require("chalk");
 
-export default function logCLI(dir, theme) {
+exports.logCLI = function (dir, theme) {
   const log = console.log;
   const template = `
   =============================
@@ -8,4 +8,4 @@ export default function logCLI(dir, theme) {
   =============================`;
 
   log(chalk.green(template));
-}
+};

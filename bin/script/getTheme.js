@@ -1,6 +1,6 @@
-import inquirer from "inquirer";
+const inquirer = require("inquirer");
 
-export default async function getTheme() {
+exports.getTheme = async function () {
   const themeOption = {
     type: "checkbox",
     name: "theme",
@@ -29,4 +29,4 @@ export default async function getTheme() {
 
   const theme = res["theme"].length !== 0 ? res["theme"] : ["Nord"];
   return theme;
-}
+};

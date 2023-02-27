@@ -1,17 +1,15 @@
 {
-  "name": "img",
+  "name": "gonord",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
+  "main": "bin/index.js",
+  "author": "Kaik Selhorst",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.2.0",
-    "inquirer": "^9.1.4"
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5"
+  },
+  "bin": {
+    "GONORD": "bin/index.js"
   }
 }
