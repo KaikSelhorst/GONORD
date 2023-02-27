@@ -1,7 +1,7 @@
 {
   "name": "gonord",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy CLI Node for CLI ImageGoNord",
   "main": "bin/index.js",
   "author": "Kaik Selhorst",
   "license": "ISC",
@@ -11,5 +11,12 @@
   },
   "bin": {
     "GONORD": "bin/index.js"
-  }
+  },
+  "keywords": [
+    "imageGoNord",
+    "CLI",
+    "Node",
+    "Python",
+    "GoNord"
+  ]
 }
