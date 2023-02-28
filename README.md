@@ -33,10 +33,10 @@ npm install
 pip install -r ./ImageGoNord/requirements.txt
 
 # Global Command
-$ npm install -g
+npm install -g
 
 # Run terminal CLI
-$ GONORD
+GONORD
 ```
 
 ### Performance
