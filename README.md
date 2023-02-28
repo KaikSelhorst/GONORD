@@ -43,6 +43,22 @@ GONORD
 
 This CLI doesn't have the best performance on 4k images, so you need a better computer to make the transformations faster, even if you don't have the transformations they still happen but slower
 
+### Preview
+
+|                               Original                               |                              Challenger                               |                                Dracula                                |
+| :------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| <a href="01"><img width="300px" src="./.github/Original.png" /></a>  | <a href="01"><img width="300px" src="./.github/Challenger.png" /></a> |  <a href="01"><img width="300px" src="./.github/Dracula.png" /></a>   |
+|                                Gotham                                |                                GruvBox                                |                                Molokai                                |
+|  <a href="01"><img width="300px" src="./.github/Gotham.png" /></a>   |  <a href="01"><img width="300px" src="./.github/GruvBox.png" /></a>   |  <a href="01"><img width="300px" src="./.github/Molokai.png" /></a>   |
+|                              Moonlight                               |                                 nord                                  |                                Oceanic                                |
+| <a href="01"><img width="300px" src="./.github/Moonlight.png" /></a> |    <a href="01"><img width="300px" src="./.github/nord.png" /></a>    |  <a href="01"><img width="300px" src="./.github/Oceanic.png" /></a>   |
+|                               Onedark                                |                               Palenight                               |                               Serenade                                |
+|  <a href="01"><img width="300px" src="./.github/Onedark.png" /></a>  | <a href="01"><img width="300px" src="./.github/Palenight.png" /></a>  |  <a href="01"><img width="300px" src="./.github/Serenade.png" /></a>  |
+|                               Sonokai                                |                                 Tokyo                                 |                               Vaporwave                               |
+|  <a href="01"><img width="300px" src="./.github/Sonokai.png" /></a>  |   <a href="01"><img width="300px" src="./.github/Tokyo.png" /></a>    | <a href="01"><img width="300px" src="./.github/Vaporwave.png" /></a>  |
+|                              Vaporwave                               |                                  Vim                                  |                              Catppuccin                               |
+| <a href="01"><img width="300px" src="./.github/Vaporwave.png" /></a> |    <a href="01"><img width="300px" src="./.github/Vim.png" /></a>     | <a href="01"><img width="300px" src="./.github/Catppuccin.png" /></a> |
+
 ### Contact IGN
 
 Github: [ImageGoNord](https://github.com/Schrodinger-Hat/ImageGoNord)
