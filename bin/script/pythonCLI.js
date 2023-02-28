@@ -1,20 +1,19 @@
 const childProcess = require("node:child_process");
+const path = require("node:path");
 const fs = require("fs");
-
-const { normalizeFile } = require("./normalize.js");
 const { logCLI } = require("./logCLI.js");
 
-exports.pythonCLI = function (theme, dir, filePath) {
-  const { name, extention } = normalizeFile(filePath);
+const CLIPATH = path.join(__dirname, "../../ImageGoNord", "src", "cli.py");
 
-  if (!fs.existsSync(dir.output + name)) {
-    fs.mkdirSync(dir.output + name);
-  }
+exports.pythonCLI = function (theme, dir, filePath) {
+  const { name, ext } = path.parse(filePath);
+
+  if (!fs.existsSync(dir.output + name)) fs.mkdirSync(dir.output + name);
 
   return new Promise((resolve) => {
     childProcess.exec(
-      `python ./ImageGoNord/src/cli.py --${theme} -i="${filePath}" -o="${dir.output}/${name}/${name}-${theme}.${extention}"`,
-      () => {
+      `python ${CLIPATH} --${theme} -i="${filePath}" -o="${dir.output}/${name}/${name}-${theme}${ext}"`,
+      (e) => {
         logCLI(name, theme);
         resolve();
       }
