@@ -2,7 +2,7 @@
 
 ### What is ImageGoNord
 
-A tool that can convert your `RGB` images to `nordtheme` palette.
+A tool that can convert your `RGB` images to `others` palette.
 
 ### What is CLI
 
