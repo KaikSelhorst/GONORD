@@ -2,7 +2,7 @@
 
 ### What is ImageGoNord
 
-A tool that can convert your `RGB` images to `others` palette.
+Gonord is an CLI (Command Line Interface) designed to make the already existing ImageGoNord CLI much more user friendly. It functions by allowing users to quickly and easily replace colors of images with colors of themes they have selected.
 
 ### What is CLI
 
@@ -16,17 +16,18 @@ My CLI is easier to use and more intuitive, since the user won't need to type th
 
 ### Minimum requirements
 
-- Node
-- NPM
-- Python
-- Pip
+- Node: JavaScript runtime built on Chrome's V8 JavaScript engine
+- Python: A high-level, interpreted, and general-purpose programming language
+- Pip: A package management system used to install and manage software packages written in Python
 
+
+### Install
 ```bash
 # Clone repository
-git clone https://github.com/KaikSelhorst/ImageGoNord-Easy.git
+git clone https://github.com/KaikSelhorst/GONORD.git
 
 # Install dependencies
-cd ImageGoNord-Easy
+cd GONORD
 # Nord Dependencies
 npm install
 # Python Dependencies
@@ -38,6 +39,14 @@ npm install -g
 # Run terminal CLI
 GONORD
 ```
+
+
+### Features
+
+- Folder Transform
+- Automatic Output
+- Custom Output
+
 
 ### Performance
 
