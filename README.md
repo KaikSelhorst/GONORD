@@ -40,7 +40,6 @@ npm install -g
 GONORD
 ```
 
-
 ### Features
 
 - Folder Transform
@@ -51,22 +50,6 @@ GONORD
 ### Performance
 
 This CLI doesn't have the best performance on 4k images, so you need a better computer to make the transformations faster, even if you don't have the transformations they still happen but slower
-
-### Preview
-
-|                                         Original                                          |                                         Challenger                                          |                                           Dracula                                           |
-| :---------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
-|  <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Original.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Original.jpg" /></a>  | <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Challenger.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Challenger.jpg" /></a> |    <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Dracula.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Dracula.jpg" /></a>    |
-|                                          Gotham                                           |                                           GruvBox                                           |                                           Molokai                                           |
-|    <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Gotham.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Gotham.jpg" /></a>    |    <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/GruvBox.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/GruvBox.jpg" /></a>    |    <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Molokai.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Molokai.jpg" /></a>    |
-|                                         Moonlight                                         |                                            nord                                             |                                           Oceanic                                           |
-| <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Moonlight.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Moonlight.jpg" /></a> |       <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/nord.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/nord.jpg" /></a>       |    <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Oceanic.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Oceanic.jpg" /></a>    |
-|                                          Onedark                                          |                                          Palenight                                          |                                          Serenade                                           |
-|   <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Onedark.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Onedark.jpg" /></a>   |  <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Palenight.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Palenight.jpg" /></a>  |   <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Serenade.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Serenade.jpg" /></a>   |
-|                                          Sonokai                                          |                                            Tokyo                                            |                                          Vaporwave                                          |
-|   <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Sonokai.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Sonokai.jpg" /></a>   |      <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Tokyo.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Tokyo.jpg" /></a>      |  <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Vaporwave.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Vaporwave.jpg" /></a>  |
-|                                         Vim                                         |                                             Catppuccin                                             |
-|        <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Vim.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Vim.jpg" /></a>        | <a href="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Catppuccin.jpg"><img width="300px" src="https://raw.githubusercontent.com/KaikSelhorst/GONORD/main/.github/Catppuccin.jpg" /></a> |
 
 ### Contact IGN
 
